@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ezgif.com-webp-to-jpg.jpg" />
+    <None Remove="ezgif.com-webp-to-png.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ezgif.com-webp-to-jpg.jpg" />
+    <Resource Include="ezgif.com-webp-to-png.png" />
+  </ItemGroup>
+
+</Project>
